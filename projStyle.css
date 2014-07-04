@@ -1,0 +1,132 @@
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+  	padding: 0;
+  	border: 0;
+}
+
+html {
+	background-color: #81BEF7;
+}
+
+#container {
+	position: relative;
+	background-color: #086A87;
+	background: linear-gradient(#086A87, #81BEF7);
+	height: 520px;
+	width: 150px;
+}
+
+fieldset {
+	background: linear-gradient(#086A87, #82F85A); 
+	color: #CEECF5;
+	border-radius: 10px;
+	border: 2px solid yellow;
+}
+
+span {
+	font-style: italic;
+	font-style: Tahoma;
+	font-weight: bold;
+	color: blue;
+}
+
+form {
+	font-size: 30px;
+	margin: 10px;
+}
+form .two {
+	display: block;
+	margin: 20px;
+	text-align: center;
+}
+
+form .two input {
+	height: 30px;
+	width: 650px;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px;
+}
+
+legend {
+	font-size: smaller;
+	color: #610B21;
+}
+
+#filler h2 {
+	color: black;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #0101DF;
+}
+
+aside {
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	top: 20%;
+}
+ footer {
+ 	position: relative;
+ 	top: 32.2%;
+ }
+
+#thetop {
+	position: relative;
+	text-align: center;
+	background: linear-gradient(#086A87, #04B48C);
+	height: 100px;
+	width: 1100px;
+	left: 150px;
+} 
+
+#filler {
+	position: relative;
+	text-align: center;
+	background-color: #0B615E;
+	height: 420px;
+	width: 1100px;
+	left: 150px;
+	background-image: url("map2.png");
+} 
+
+.btn {
+  background-color: #FAFAFA;
+  border: 0;
+  border-radius: 3px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 16px;
+  margin: 10px;
+}
+
+#testify {
+	position: absolute;
+	left: 0px;
+	width: 150px;
+	top: 90px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#testify p {
+	margin: 5px;
+}
+
+#bottom {
+	position: relative;
+	top: 0px;
+	text-align: center;
+}
+
+input:focus {
+    /* To give a little highlight on active elements */
+    border-color: red;
+}
